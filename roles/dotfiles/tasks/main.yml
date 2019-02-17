@@ -14,3 +14,7 @@
 - name: Fix order
   shell: dockutil --move '{{ item.name }}' --position {{ item.pos }}
   with_items: "{{ dockitems_to_persist }}"
+
+- name: Install hexo
+  shell: npm install -g '{{ item }}'
+  with_items: "{{ npm_packages }}"

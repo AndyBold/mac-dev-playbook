@@ -145,9 +145,5 @@ dockitems_to_persist:
     pos: 4
 
 npm_packages:
-  - grunt
-  - bower
-  - sass
-  - webpack
-  - yo
-  - generator-webapp
+  - hexo-cli
+  - hexagon-cli
