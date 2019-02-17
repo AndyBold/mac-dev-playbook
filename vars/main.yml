@@ -2,48 +2,118 @@
 homebrew_install_path: /usr/local/homebrew
 homebrew_installed_packages:
   - ansible
-  - docker
   - git
-  - ssh-copy-id
   - wget
   - dockutil
   - zsh
   - tmux
-  - mercurial
-  - phpmd
-  - php-code-sniffer
-  - php-cs-fixer
-  - phpunit
-  - php70
-  - php70-intl
-  - php70-imagick
-  - php70-mcrypt
   - tree
   - npm
   - yarn
+  - docker
   - docker-compose
   - docker-machine-nfs
-  - composer
   - git-extras
+  - git-lfs
+  - cabal-install
+  - ghc
+  - coreutils
+  - curl
+  - direnv
+  - django-completion
+  - emacs-plus
+  - graphviz
+  - lesspipe
+  - mailutils
+  - node
+  - pandoc
+  - plantuml
+  - python
+  - rbenv
+  - ruby-build
+  - source-highlight
+  - pass
 
 homebrew_taps:
   - caskroom/cask
   - caskroom/versions
-  - homebrew/php
+  - d12frosted/emacs-plus
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - google-chrome
   - firefox
   - vagrant
+  - vagrant-manager
   - virtualbox
-  - phpstorm
   - slack
-  - istat-menus
-  - atom
-  - android-file-transfer
   - spotify
-  - hipchat
+  - 1password-cli
+  - archi
+  - bbedit
+  - daisydisk
+  - fantastical
+  - fliqlo
+  - font-anonymous-pro
+  - font-anonymouspro-nerd-font
+  - font-anonymouspro-nerd-font-mono
+  - font-consolas-for-powerline
+  - font-fira-code
+  - font-fira-mono
+  - font-fira-mono-for-powerline
+  - font-fira-sans
+  - font-ia-writer-duo
+  - font-ia-writer-duospace
+  - font-ia-writer-mono
+  - font-ia-writer-quattro
+  - font-inconsolata-for-powerline
+  - font-inconsolata-for-powerline-bold
+  - font-iosevka
+  - font-iosevka-nerd-font
+  - font-iosevka-nerd-font-mono
+  - font-source-code-pro-for-powerline
+  - karabiner-elements
+  - keybase
+  - kindle
+  - minikube
+  - paparazzi
+  - qlcolorcode
+  - qlmarkdown
+  - quicklook-json
+  - quicklook-csv
+  - rstudio
+  - skype
+  - sonic-pi
+  - supercollider
+  - zotero
+  - angband
+  - brogue
+  - dungeon-crawl-stone-soup-tiles
+  - dwarf-fortress-lmp
+
+# Additional apps for a fully clean Mac. As I write this,
+# I've already installed these manually, and CBA redoing them.
+#  - 1password
+#  - alfred
+#  - bartender
+#  - bettertouchtool
+#  - devonagentp
+#  - devonthink-pro-office
+#  - dropbox
+#  - hazel
+#  - iterm2
+#  - keyboard-maestro
+#  - little-snitch
+#  - mactex
+#  - marked
+#  - merlin-project
+#  - omnifocus
+#  - omnigraffle
+#  - openttd
+#  - postbox
+#  - scrivener
+#  - ubar
+#  - viscosity
+
 
 dockitems_to_remove:
   - Launchpad
@@ -64,31 +134,15 @@ dockitems_to_remove:
   - Siri
 
 dockitems_to_persist:
-  - name: Google Chrome
-    path: "/Applications/Google Chrome.app"
-    pos: 1
   - name: Firefox
     path: "/Applications/Firefox.app"
     pos: 2
-  - name: PhpStorm
-    path: /Applications/PhpStorm.app
+  - name: Postbox
+    path: /Applications/Postbox.app
     pos: 3
   - name: Slack
     path: /Applications/Slack.app
     pos: 4
-  - name: VirtualBox
-    path: /Applications/VirtualBox.app
-    pos: 5
-  - name: Terminal
-    path: /Applications/Utilities/Terminal.app
-    pos: 6
-  - name: Spotify
-    path: /Applications/Spotify.app
-    pos: 7
-  - name: HipChat
-    path: /Applications/HipChat.app
-    pos: 8
-
 
 npm_packages:
   - grunt
