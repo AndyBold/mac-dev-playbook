@@ -1,6 +1,6 @@
 ---
 - name: Clone dotfiles
-  git: repo=git@bitbucket.org:andybold/dotfiles.git dest=/Users/andrewbold/src/me/dotfiles recursive=yes update=no
+  git: repo=git@bitbucket.org:andybold/dotfiles.git dest=/Users/andrewbold/src/me/dotfiles recursive=yes update=yes clone=no
 
 - name: Remove all crap from Dock
   shell: dockutil --remove '{{ item }}'
