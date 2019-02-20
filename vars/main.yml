@@ -16,6 +16,7 @@ homebrew_installed_packages:
   - docker
   - docker-compose
   - docker-machine-nfs
+  - docker-machine-driver-hyperkit
   - git-extras
   - git-lfs
   - coreutils
