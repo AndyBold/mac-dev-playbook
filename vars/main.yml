@@ -72,6 +72,8 @@ homebrew_cask_apps:
   - font-iosevka-nerd-font-mono
   - font-source-code-pro-for-powerline
   - minikube
+  - kubectl
+  - kubernetes-cli
   - paparazzi
   - qlcolorcode
   - qlmarkdown
