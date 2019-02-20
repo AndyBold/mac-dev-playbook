@@ -1,4 +1,7 @@
 ---
+
+# TODO: Create 'work' and 'home' branches for different environments.
+
 homebrew_install_path: /usr/local/homebrew
 homebrew_installed_packages:
   - ansible
@@ -15,8 +18,6 @@ homebrew_installed_packages:
   - docker-machine-nfs
   - git-extras
   - git-lfs
-  - cabal-install
-  - ghc
   - coreutils
   - curl
   - direnv
@@ -45,7 +46,6 @@ homebrew_cask_apps:
   - vagrant
   - vagrant-manager
   - virtualbox
-  - slack
   - spotify
   - 1password-cli
   - archi
@@ -71,9 +71,6 @@ homebrew_cask_apps:
   - font-iosevka-nerd-font
   - font-iosevka-nerd-font-mono
   - font-source-code-pro-for-powerline
-  - karabiner-elements
-  - keybase
-  - kindle
   - minikube
   - paparazzi
   - qlcolorcode
@@ -81,17 +78,15 @@ homebrew_cask_apps:
   - quicklook-json
   - quicklook-csv
   - rstudio
-  - skype
-  - sonic-pi
-  - supercollider
   - zotero
-  - angband
-  - brogue
-  - dungeon-crawl-stone-soup-tiles
-  - dwarf-fortress-lmp
 
 # Additional apps for a fully clean Mac. As I write this,
-# I've already installed these manually, and CBA redoing them.
+# I've already installed these manually so I'll just keep them
+# here for now.
+
+#  - keybase
+#  - skype
+#  - karabiner-elements
 #  - 1password
 #  - alfred
 #  - bartender
@@ -108,12 +103,22 @@ homebrew_cask_apps:
 #  - merlin-project
 #  - omnifocus
 #  - omnigraffle
-#  - openttd
 #  - postbox
 #  - scrivener
-#  - ubar
 #  - viscosity
+#  - slack
 
+# Amusements - casks
+#  - kindle
+#  - sonic-pi
+#  - supercollider
+#  - brogue
+#  - dungeon-crawl-stone-soup-tiles
+#  - dwarf-fortress-lmp
+#  - openttd
+
+# Amusements - standard brews
+#  - angband
 
 dockitems_to_remove:
   - Launchpad
@@ -143,6 +148,9 @@ dockitems_to_persist:
   - name: Slack
     path: /Applications/Slack.app
     pos: 4
+  - name: OmniFocus
+    path: /Applications/OmniFocus.app
+    pos: 5
 
 npm_packages:
   - hexo-cli
