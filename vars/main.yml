@@ -141,10 +141,11 @@ dockitems_to_remove:
   - System Preferences
   - Calendar
   - Siri
+  - Firefox
 
 dockitems_to_persist:
-  - name: Firefox
-    path: "/Applications/Firefox.app"
+  - name: Safari
+    path: /Applications/Safari.app
     pos: 2
   - name: Postbox
     path: /Applications/Postbox.app
