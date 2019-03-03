@@ -36,6 +36,7 @@ homebrew_installed_packages:
   - ruby-build
   - source-highlight
   - pass
+  - shellcheck
 
 homebrew_taps:
   - caskroom/cask
