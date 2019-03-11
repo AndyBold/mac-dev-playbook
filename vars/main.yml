@@ -85,6 +85,7 @@ homebrew_cask_apps:
   - quicklook-csv
   - rstudio
   - zotero
+  - bettertouchtool
 
 # Additional apps for a fully clean Mac. As I write this,
 # I've already installed these manually so I'll just keep them
