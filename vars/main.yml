@@ -20,6 +20,7 @@ homebrew_installed_packages:
   - docker-machine-driver-hyperkit
   - git-extras
   - git-lfs
+  - pre-commit
   - gitleaks
   - aspell
   - coreutils
