@@ -6,6 +6,14 @@
     update: yes
     clone: yes
 
+# - name: Install Doom emacs
+  # git:
+    # repo: https://github.com/hlissner/doom-emacs
+    # version: develop
+    # dest: ~/.emacs.d
+    # update: yes
+    # clone: yes
+
 - name: Remove all crap from Dock
   shell: dockutil --remove '{{ item }}'
   ignore_errors: true
