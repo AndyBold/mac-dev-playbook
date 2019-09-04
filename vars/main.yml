@@ -40,6 +40,13 @@ homebrew_installed_packages:
   - source-highlight
   - pass
   - shellcheck
+  - multimarkdown
+  - kube-ps1
+  - tig
+  - the_silver_searcher
+  - azure-cli
+  - terraform
+  - mosh
 
 homebrew_taps:
   - caskroom/cask
@@ -49,15 +56,11 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - firefox
-  - vagrant
-  - vagrant-manager
   - virtualbox
   - spotify
   - 1password-cli
   - archi
-  - bbedit
   - daisydisk
-  - fantastical
   - fliqlo
   - font-anonymous-pro
   - font-anonymouspro-nerd-font
@@ -87,8 +90,10 @@ homebrew_cask_apps:
   - quicklook-json
   - quicklook-csv
   - rstudio
-  - zotero
-  - anaconda
+  - wkhtmltopdf
+  - pashua
+  - aws-vault
+  - minishift
   #- bettertouchtool
   #- tinderbox
 
@@ -155,8 +160,8 @@ dockitems_to_persist:
   - name: Path Finder
     path: /Applications/Path Finder.app
     pos: 2
-  - name: Vivaldi
-    path: /Applications/Vivaldi.app
+  - name: Safari
+    path: /Applications/Safari.app
     pos: 3
   - name: Spark
     path: /Applications/Spark.app
