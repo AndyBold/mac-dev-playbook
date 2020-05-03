@@ -12,14 +12,9 @@ homebrew_installed_packages:
   - zsh
   - tmux
   - tree
-  - npm
-  - yarn
-  - docker
-  - docker-compose
-  - docker-machine-nfs
-  - docker-machine-driver-hyperkit
   - git-extras
   - git-lfs
+  - legit
   - pre-commit
   - gitleaks
   - aspell
@@ -31,7 +26,6 @@ homebrew_installed_packages:
   - graphviz
   - lesspipe
   - mailutils
-  - node
   - pandoc
   - plantuml
   - python
