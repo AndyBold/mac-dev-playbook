@@ -75,6 +75,9 @@ homebrew_cask_apps:
   - font-iosevka-nerd-font-mono
   - font-source-code-pro-for-powerline
   - font-cooper-hewitt
+  - font-overpass
+  - font-overpass-mono
+  - font-overpass-nerd-font
   - minikube
   - kubectl
   - kubernetes-cli
